@@ -1,0 +1,139 @@
+*{
+    margin: 0px;
+    box-sizing: border-box; 
+    text-align: center;
+}
+.container{
+    box-sizing: border-box;
+    width: calc(100vw-1px)
+}
+/* css for cylinder division */
+.cylinder{
+    height: 50vh;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-bottom: 2px solid #a52a2a;
+    border-top: 2px solid #a52a2a;
+}
+#align_cyl{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#align_cyl > input{
+    height: 40px;
+    width: 250px;
+    font-size: medium;
+    text-align: center;
+    border: none;
+    outline: none;
+    box-shadow: 5px 5px 5px #000000;
+}
+#align_cyl > button{
+    border-radius: 10%;
+    height: 40px;
+    width: 180px;
+    box-shadow: 5px 5px 5px #000000;
+    cursor: pointer;
+}
+#align_cyl > button:active{
+    height: 40px;
+    width: 180px;
+    box-shadow: 4px 4px 4px #000000;
+    cursor: pointer;
+    transform: scale(0.90);
+}
+
+
+/* css for power div */
+
+
+.power{
+    height: 50vh;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-bottom: 2px solid #a52a2a;
+    border-top: 2px solid #a52a2a;
+}
+#align_power{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#align_power > input{
+    height: 40px;
+    width: 250px;
+    font-size: medium;
+    text-align: center;
+    border: none;
+    outline: none;
+    box-shadow: 5px 5px 5px #000000;
+}
+#align_power > button{
+    border-radius: 10%;
+    height: 40px;
+    width: 180px;
+    box-shadow: 5px 5px 5px #000000;
+    cursor: pointer;
+}
+#align_power > button:active{
+    height: 40px;
+    width: 180px;
+    box-shadow: 4px 4px 4px #000000;
+    cursor: pointer;
+    transform: scale(0.90);
+}
+
+/* div for bucket */
+
+
+.bucket{
+    height: 50vh;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-bottom: 2px solid #a52a2a;
+    border-top: 2px solid #a52a2a;
+}
+#bucket_inp{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#bucket_inp > input{
+    height: 40px;
+    width: 350px;
+    font-size: medium;
+    text-align: center;
+    border: none;
+    outline: none;
+    box-shadow: 5px 5px 5px #000000;
+}
+#bucket_inp > button{
+    border-radius: 10%;
+    height: 40px;
+    width: 250px;
+    box-shadow: 5px 5px 5px #000000;
+    cursor: pointer;
+}
+#bucket_inp > button:active{
+    height: 40px;
+    width: 180px;
+    box-shadow: 4px 4px 4px #000000;
+    cursor: pointer;
+    transform: scale(0.90);
+}

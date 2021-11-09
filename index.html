@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assignment</title>
+    <link rel="stylesheet" href="./index_1.css">
+</head>
+<body>
+    <div class="container">
+        <!-- division for cylinder -->
+        <h1 style="margin:10px ;">Question 1</h1>
+        <div class="cylinder">
+            <!-- form to take cylinder input -->
+            <div id='align_cyl'>
+                <input type="number" id="radius" placeholder="Enter Radius">
+                <input type="number" id="height" placeholder="Enter Height">
+                <input id='volume' placeholder="Your Answer" disabled>
+                <button onclick="volume_cyl();">Calculate volume</button>
+                <button onclick="surface_cyl();">Calculate Surface area</button>
+            </div>
+            <!-- image to show cylinder -->
+            <img src="./media/cylinder.png" width="300px" height="100%" />
+        </div>
+        <h1 style="margin:10px ;">Question 2</h1>
+        <!-- division for power formula -->
+        <div class="power">
+            <div id='align_power'>
+                <input id="current" placeholder="current" type="number">
+                <input id="voltage" placeholder="voltage" type="number">
+                <input id='power' placeholder="power" disabled>
+                <button onclick="power_calc();">Calculate power</button>
+            </div>
+            <img src="./media/power.png" width="300px" height="100%" />
+        </div>
+        <h1 style="margin:10px ;">Question 3</h1>
+        <!-- division for bucket -->
+        <div class="bucket">
+            <div id="bucket_inp">
+                <input type="number" id='bucket_area' placeholder="Enter area covered in one bucket">
+                <input type="number" id="wall_width" placeholder="Enter width of wall">
+                <input type="number" id="wall_height" placeholder="Enter height of wall">
+                <input id="answer_bucket" placeholder="Number of bucket required" disabled>
+                <button onclick="wall();">Calculate number of bucket required</button>
+            </div>
+        </div>
+    </div>
+    <script src="./questions.js"></script>
+</body>
+</html>
